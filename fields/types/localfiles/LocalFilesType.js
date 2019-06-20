@@ -96,6 +96,8 @@ localfiles.prototype.addToSchema = function() {
 		path:			String,
 		size:			Number,
 		filetype:		String
+	},{
+		usePushEach: true
 	});
 
 	// The .href virtual returns the public path of the file
