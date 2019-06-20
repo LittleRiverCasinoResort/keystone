@@ -82,7 +82,7 @@ cloudinaryimages.prototype.addToSchema = function() {
 		height:			Number,
 		secure_url:		String
 	},{
-		usePushEach: true;
+		usePushEach: true
 	});
 
 	// Generate cloudinary folder used to upload/select images
